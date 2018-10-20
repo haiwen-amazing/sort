@@ -25,13 +25,8 @@ public class BubbleAndCocktail {
 		wine(arr2);
 		t2 = System.currentTimeMillis()-t2;
 		System.out.println("需要时间："+t2);
-
-
-
-
-
-
 	}
+	
 	//鸡尾酒排序
 	private static void wine(int[] arr2) {
 		int tmp = 0;//交换
@@ -79,6 +74,7 @@ public class BubbleAndCocktail {
 		}
 		System.out.println("鸡尾酒排序："+Arrays.toString(arr2));
 	}
+	
 	//冒泡排序
 	private static void blue(int[] arr) {
 		int tmp = 0;//交换
